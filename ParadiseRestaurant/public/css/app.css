@@ -1,0 +1,130 @@
+* {
+	font-family: "Raleway", sans-serif;
+}
+
+body {
+	background-color: #ebf6fc;
+}
+
+.panel {
+	background-color: #fff;
+	padding:20px;
+	border-radius: 10px;
+	border:1px solid #cad5db;
+	
+}
+
+.panel .body{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	
+}
+
+.input-box {
+	padding-bottom: 10px;
+	
+}
+
+.input-box .label {
+	font-weight: bold;
+	color: #000;
+	padding-bottom: 5px;
+	margin-right: 210px;
+}
+
+.input-box input, select, option {
+	color: #000;
+	font-weight: bold;
+	padding:10px;
+	min-width: 250px;
+}
+
+button {
+	color: #fff;
+	font-weight: bold;
+	background-color: rgb(160, 160, 14) ;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	min-width: 200px;
+	font-size: 14px;
+}
+button:hover {background-color: #429b45}
+
+#LogOut{
+	color: #fff;
+	font-weight: bold;
+	background-color: rgb(160, 160, 14) ;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	min-width: 200px;
+}
+#LogOut:hover {background-color: #429b45}
+
+.message {
+	background-color: green;
+	padding:10px;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.message-error {
+	background-color: red;
+	padding:10px;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+a:link, a:visited {
+	background-color: #4287f5;
+	color: rgb(228, 227, 227);
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
+	border-radius: 10px;
+  }
+  
+  a:hover, a:active {
+	background-color: green;
+	color: white;
+  }
+
+.tab-window .tabs a {
+	text-decoration: none;
+	background-color: #4287f5;
+	color: #fff;
+	padding:10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.tab-window .tabs a:hover, a:active {
+	background-color: green;
+	color: white;
+}
+
+.tab-window .content {
+	padding-top: 20px;
+}
+
+table {
+	width: 100%;
+}
+
+table thead tr th {
+	background-color: rgb(64, 150, 61);
+	padding: 10px; 
+	
+}
+
+table tbody tr td {
+	padding: 10px;
+	font-weight: bold;
+	text-align: center;
+}
